@@ -1,0 +1,154 @@
+.wrap {
+    background-color: black;
+    width: 1440px;
+    height: 3160px;
+    font-family: 'DM Sans';
+}
+
+.header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: DM Sans;
+    z-index: 10;
+}
+
+.header-left {
+    color: #FFFFFF;
+    width: 212px;
+    height: 47px;
+    position: absolute;
+    left: 80px;
+    top: 28px;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 48px;
+}
+
+.header-right {
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.header-right-text-1 {
+    position: absolute;
+    left: 1020px;
+    top: 40px;
+    width: 84px;
+    height: 24px;
+    line-height: 24px;
+}
+
+.header-right-text-2 {
+    position: absolute;
+    left: 1144px;
+    top: 40px;
+    width: 70px;
+    height: 24px;
+    line-height: 24px;
+}
+
+.header-right-text-3 {
+    position: absolute;
+    left: 1254px;
+    top: 40px;
+    width: 100px;
+    height: 24px;
+    line-height: 24px;
+}
+
+.card {
+    display: flex;
+}
+
+.card-left-introduce {
+    color: #FFFFFF;
+    width: 452px;
+    height: 124px;
+    font-weight: 700;
+    font-size: 48px;
+    position: absolute;
+    left: 128px;
+    top: 395px;
+    line-height: 62px;
+}
+
+.card-left-mid-text {
+    color: #828282;
+    font-weight: 500;
+    font-size: 18px;
+    width: 204px;
+    height: 24px;
+    position: absolute;
+    left: 128px;
+    top: 528px;
+    line-height: 24px;
+}
+
+/* .card-btn {} */
+
+.card-btn-cv {
+    background-color: #27AE60;
+    width: 144px;
+    height: 42px;
+    position: absolute;
+    left: 130px;
+    top: 586px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFFFFF;
+}
+
+.card-btn-more {
+    background-color: #171717;
+    width: 144px;
+    height: 40px;
+    position: absolute;
+    left: 283px;
+    top: 586px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFFFFF;
+    border: 1px solid #E5E5E5;
+}
+
+.profile-style {
+    width: 650px;
+    height: 978px;
+    position: absolute;
+    left: 690px;
+    top: 24px;
+    /* border: 1px solid #4F4F4F; */
+    /* background-color: #83e4ac; */
+}
+
+.profile {
+    width: 596px;
+    height: 596px;
+    position: absolute;
+    left: 718px;
+    top: 214px;
+    border: 1px solid #202020;
+    background-image: url('img/profile.svg');
+    background-size: contain;
+    border-radius: 50%;
+    box-sizing: border-box;
+}
+
+.profile-border {
+    width: 650px;
+    height: 650px;
+    position: absolute;
+    left: 692px;
+    top: 190px;
+    border: 1px solid #202020;
+    border-radius: 50%;
+    box-sizing: border-box;
+}
+
+
+
+
